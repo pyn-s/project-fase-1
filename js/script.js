@@ -1,6 +1,7 @@
     let setuju = document.getElementById("setuju");
     console.log("Setuju:", setuju);
 
+// untuk perubahan checkbox
     setuju.addEventListener("change", function() {
     submit.disabled = !setuju.checked;
     });
@@ -8,6 +9,7 @@
 
 const form = document.getElementById("form");
 
+// untuk tombol submit
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 
