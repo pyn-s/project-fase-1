@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1> Form Pendaftaran Projek </h1>
+            <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>form</title>
+        </head>
+        <body>
+
+
+            <form id="form">
+        <div class="form-group">
+        <label for="nama">Nama lengkap</label>
+        <br>
+        <input type="text" id="nama" placeholder="Nama">
+         <br>
+        <small id="errorNama" style="color: red;"></small>
+        <br><br>
+        </div>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Email">
+        <br>
+        <small id="errorEmail" style="color: red;"></small>
+        <br><br>
+
+        <select id="kelas">
+             <option value="disable select">Pilih kelas</option>
+             <option value="10">10</option>
+             <option value="11">11</option>
+             <option value="12">12</option>
+        </select>
+        <small id="error-kelas" style="color: red;"></small>
+        
+        <select id="jurusan">
+             <option value="disable select">Pilih jurusan</option>
+             <option value="rpl">RPL</option>
+             <option value="tkj">TKJ</option>
+             <option value="pf">PF</option>
+             <option value="tja">TJA</option>
+        </select>
+        <br>
+
+        <small id="errorJurusan" style="color: red;"></small>
+        <br><br>
+
+        <input type="text" id="kegiatan" placeholder="Ketik kegiatan..."> 
+        <br><br>
+
+            <input type="checkbox" id="setuju">
+            <label for="setuju">Setuju Syarat & Ketentuan</label>
+            <br><br>
+
+        <button type="submit" id="submit" disabled >Daftar</button>
+        </form>
+
+        <div id="hasil"></div>
+        
+        <script src="js/script.js"></script>
+ 
+        </body>
+        </html>
