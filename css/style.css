@@ -49,6 +49,10 @@ select:focus {
     border-color: #007bff;
 }
 
+.kelas{     
+    width: 100px;
+}
+
 small {
     display: block;
     margin-top: 5px;

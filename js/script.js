@@ -19,6 +19,15 @@ form.addEventListener("submit", function(event) {
     const email = document.getElementById("email").value.trim();
     const kelas = document.getElementById("kelas").value;
     const jurusan = document.getElementById("jurusan").value;
+    const status = document.getElementById("status").value;
+
+    console.log("Nama".nama);
+    console.log("Email".email);
+    console.log("Kelas".kelas);
+    console.log("Jurusan".jurusan);
+    console.log("Kegiatan".kegiatan);
+    console.log("Status".status);
+
 
     document.getElementById("errorNama").textContent = "";
     document.getElementById("errorEmail").textContent = "";
@@ -54,6 +63,8 @@ form.addEventListener("submit", function(event) {
             <p>Jurusan: ${jurusan}</p>
         `;
     }
+
+
 
         const tombol = document.getElementById("submit");
     const form = document.getElementById("form");
